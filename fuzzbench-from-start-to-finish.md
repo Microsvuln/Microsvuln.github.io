@@ -7,15 +7,15 @@ A security researcher or computer scientist may want to evaluate the fuzzer his 
 
 I'm going to cover the following topics in general about fuzzbench :
 
-- What is Google Fuzzbench?
-- How fuzzbench is working?
-- Why I need to evaluate my fuzzer?
-- What targets fuzzbench supported?
-- How fuzzbench measure the code coverage?
-- Does fuzzbench support evaluating fuzzer by the factor of bug coverage?
-- How to integrate your fuzzer into fuzzbench?
-- How to request an experiment from Fuzzbench?
-- How to build and run a local experiment with fuzzbench in your system?
+-  What is Google Fuzzbench?
+-  How fuzzbench is working?
+-  Why I need to evaluate my fuzzer?
+-  What targets fuzzbench supported?
+-  How fuzzbench measure the code coverage?
+-  Does fuzzbench support evaluating fuzzer by the factor of bug coverage?
+-  How to integrate your fuzzer into fuzzbench?
+-  How to request an experiment from Fuzzbench?
+-  How to build and run a local experiment with fuzzbench in your system?
 
 ### What is Google Fuzzbench?
 
