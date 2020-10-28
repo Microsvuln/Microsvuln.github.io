@@ -4,3 +4,8 @@ In this blog post we will have a look into Google fuzzbench service. A benchmark
 
 Currently many of the state-of-the-art fuzzers are integrated into this service. 
 A security researcher or computer scientist may want to evaluate the fuzzer his working on to see how it performs on real-world targets.
+
+### What is Google Fuzzbench?
+
+In 2 March 2020 Google has been announced that the official fuzzing benchmark service has been launched.
+According to Google blog : Fuzzbench is : __a fully automated, open source, free service for evaluating fuzzers. The goal of FuzzBench is to make it painless to rigorously evaluate fuzzing research and make fuzzing research easier for the community to adopt.__
