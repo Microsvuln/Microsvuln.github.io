@@ -11,6 +11,7 @@ I'm going to cover the following topics in general about fuzzbench :
 -  How fuzzbench is working?
 -  Why I need to evaluate my fuzzer?
 -  What targets fuzzbench supported?
+-  The benefits of using Google fuzzbench
 -  How fuzzbench measure the code coverage?
 -  Does fuzzbench support evaluating fuzzer by the factor of bug coverage?
 -  How to integrate your fuzzer into fuzzbench?
@@ -31,6 +32,16 @@ Fuzzbench can be assumed as the first tool to measure and evaluate the fuzzers a
 
 ### How fuzzbench is working?
 Fuzzbench works by integrating the fuzzer in an easy way, build and run the instances of every fuzzer in a separate Docker. 
-If you don't know what a Docker is then, this is the simplest definition : Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers.[6] Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels.[7] All containers are run by a single operating system kernel and therefore use fewer resources than virtual machines.[2]
+If you don't know what a Docker is then, this is the simplest definition : Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels.[7] All containers are run by a single operating system kernel and therefore use fewer resources than virtual machines.[2]
+
+This usage of Docker system, lets every fuzzer to use the available resources in a dedicated manner. avoiding conflicts with other fuzzer, hence have much realistic results .
+
+As a simple approach, fuzzbench works as follow :
+- Typically, a researcher submits a new fuzzer to the fuzzbench service and request an experiment
+- Fuzzbench uses the `builder.Dockerfile` to fetch the dependencies and build the fuzzer in the right way as the fuzzer author defined .
+- The fuzzbench uses the `fuzzer.py` script to prepare the environment to build the benchmarks and run the fuzzer for the experiments .
+- The experiment runs for a 24 hours cycle and report about every fuzzer and requested benchmarks will be generated automatically
+
+
 
 
