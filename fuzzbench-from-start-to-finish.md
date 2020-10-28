@@ -39,8 +39,10 @@ This usage of Docker system, lets every fuzzer to use the available resources in
 As a simple approach, fuzzbench works as follow :
 - Typically, a researcher submits a new fuzzer to the fuzzbench service and request an experiment
 - Fuzzbench uses the `builder.Dockerfile` to fetch the dependencies and build the fuzzer in the right way as the fuzzer author defined .
-- The fuzzbench uses the `fuzzer.py` script to prepare the environment to build the benchmarks and run the fuzzer for the experiments .
-- The experiment runs for a 24 hours cycle and report about every fuzzer and requested benchmarks will be generated automatically
+- The fuzzbench uses the `fuzzer.py` script to prepare the environment to build the benchmarks . each specified benchmark builds as specified in the `fuzzer.py` script.
+- The experiment runs for a 24 hours cycle and report about every fuzzer and requested benchmarks will be generated automatically.
+
+### Why I need to evaluate my fuzzer?
 
 
 
