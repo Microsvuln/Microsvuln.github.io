@@ -95,5 +95,5 @@ Furthermore, instead of doing a lot of hard works to setup different fuzzers on 
 For private reports, prepare your fuzzer in the fuzzbench way of integration, drop a mail to fuzzbench at google.com and if accepted then send your patch to fuzzbench team and they will run evaluations for you as requested.
 
 
-
+### How fuzzbench measure the code coverage?
 
