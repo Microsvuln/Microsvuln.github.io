@@ -92,6 +92,8 @@ At the technical side, fuzzbench is the work of some of the well-known security 
 The other benefits of using the Google fuzzbench platform is that the workflow is completely automatic. when you developed your fuzzer in the right way and integrated that into the fuzzbench the remaining steps will be done in an automatic fashion after requesting to run an experiment.
 
 Furthermore, instead of doing a lot of hard works to setup different fuzzers on diffent machines to get the plots and making all those simple graphs, fuzzbench supports running private experiments as request. if you want to evaluate your fuzzer in a way that others would not be able to see your fuzzer codes and reports, then this option is good for you. 
+For private reports, prepare your fuzzer in the fuzzbench way of integration, drop a mail to fuzzbench at google.com and if accepted then send your patch to fuzzbench team and they will run evaluations for you as requested.
+
 
 
 
