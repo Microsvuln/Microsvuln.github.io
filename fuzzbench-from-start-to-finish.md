@@ -85,3 +85,8 @@ Currently the following benchmarks or targets are available :
 - woff2-2016-05-06
 - zlib_zlib_uncompress_fuzzer
 
+### The benefits of using Google fuzzbench
+It's a free service, even if you request the Google fuzzbench team to run a private experiment for you. using the Google resources to run fair evaluation on your fuzzer makes this very interesting.
+At the technical side, fuzzbench is the work of some of the well-known security researchers from Google, namely Jonathan Metzman, Abhishek Arya and László Szekeres. Looking at the commits you can check that improvements, fixes and new features are done on fuzzbench as a daily basis.
+
+
