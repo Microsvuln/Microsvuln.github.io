@@ -87,6 +87,11 @@ Currently the following benchmarks or targets are available :
 
 ### The benefits of using Google fuzzbench
 It's a free service, even if you request the Google fuzzbench team to run a private experiment for you. using the Google resources to run fair evaluation on your fuzzer makes this very interesting.
-At the technical side, fuzzbench is the work of some of the well-known security researchers from Google, namely Jonathan Metzman, Abhishek Arya and László Szekeres. Looking at the commits you can check that improvements, fixes and new features are done on fuzzbench as a daily basis.
+At the technical side, fuzzbench is the work of some of the well-known security researchers from Google, namely Jonathan Metzman, Abhishek Arya and László Szekeres. Looking at the commits you can check that improvements, fixes and new features are done on fuzzbench as a daily basis. so you can be sure that you're using a well-designed platform.
+
+The other benefits of using the Google fuzzbench platform is that the workflow is completely automatic. when you developed your fuzzer in the right way and integrated that into the fuzzbench the remaining steps will be done in an automatic fashion after requesting to run an experiment.
+
+Furthermore, instead of doing a lot of hard works to setup different fuzzers on diffent machines to get the plots and making all those simple graphs, fuzzbench supports running private experiments as request. if you want to evaluate your fuzzer in a way that others would not be able to see your fuzzer codes and reports, then this option is good for you. 
+
 
 
