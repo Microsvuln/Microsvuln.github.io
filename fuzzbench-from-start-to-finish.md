@@ -96,4 +96,4 @@ For private reports, prepare your fuzzer in the fuzzbench way of integration, dr
 
 
 ### How fuzzbench measures the code coverage?
-
+Code coverage is a vast topic, however in case of Google fuzzbench, fuzzbench uses `LLVM Code Coverage Mapping Format` 
