@@ -98,3 +98,4 @@ For private reports, prepare your fuzzer in the fuzzbench way of integration, dr
 ### How fuzzbench measures the code coverage?
 Code coverage is a vast topic, however in case of Google fuzzbench, fuzzbench uses `LLVM Code Coverage Mapping Format`. it actually is using the `-fprofile-instr-generate` clang feature to track the code coverage.
 The official documentation is located [here](https://llvm.org/docs/CoverageMappingFormat.html#id14) .
+The `LLVM Code Coverage Mapping Format` is working on a per-function level .
