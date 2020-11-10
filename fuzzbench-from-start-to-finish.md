@@ -117,7 +117,7 @@ Here I faced some problems and I've managed to solve them. so here you can find 
 This is a problem you may face during the fuzzbench installation process. 
 If you started doing fuzzbench installation in the way from [fuzzbench official installation](https://google.github.io/fuzzbench/getting-started/prerequisites/), you may face this issue after running the `make install-dependencies` command. Indeed, this command will install python dependencies for required fuzzbench but if you received the mentioned error then I'm encouraging you do to the following :
 
-	1. Please make sure that you have already python 3.8 installed, it's the minimum python version that fuzzbench needs.
+	1. Please make sure that you have already python 3.8 installed, it is the minimum python version that fuzzbench needs.
 	2. Run the following commands in the following order :
 	`source .venv/bin/activate`
 	`pip install -r requirements.txt`
