@@ -17,7 +17,7 @@ I'm going to cover the following topics in general about fuzzbench :
 -  How to integrate your fuzzer into fuzzbench?
 -  How to request an experiment from Fuzzbench?
 -  How to build and run a local experiment with fuzzbench in your system?
--  Fuzzbench Troubleshooting
+-  Troubleshooting Fuzzbench 
 
 ### What is Google Fuzzbench?
 
@@ -107,7 +107,7 @@ Will continue this ... waiting for fuzzbench local runs ...
 
 
 
-### Fuzzbench Troubleshooting
+### Troubleshooting Fuzzbench 
 During local experiments you may face some issues. 
 
 Here I faced some problems and I've managed to solve them. so here you can find more information about this problems and how to fix them .
