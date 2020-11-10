@@ -122,7 +122,7 @@ If you started doing fuzzbench installation in the way from [fuzzbench official 
 	`pip install -r requirements.txt`
 
 	3. If you still receive error regarding installing python dependencies, then run :
-	`pip install --upgrade setuptools` and after this, repeat step 2 .
+	`pip install --upgrade setuptools` and after this, repeat previous step (`pip install -r requirements.txt`) .
 
 
 
