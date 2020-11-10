@@ -112,7 +112,8 @@ During local experiments you may face some issues.
 
 Here I faced some problems and I've managed to solve them. so here you can find more information about this problems and how to fix them .
 
-- ModuleNotFoundError: No module named 'pybind11' .
+- ModuleNotFoundError: No module named 'pybind11'.
+
 This is a problem you may face during the fuzzbench installation process. 
 If you started doing fuzzbench installation in the way from [fuzzbench official installation](https://google.github.io/fuzzbench/getting-started/prerequisites/), you may face this issue after running the `make install-dependencies` command. Indeed, this command will install python dependencies for required fuzzbench but if you received the mentioned error then I'm encouraging you do to the follwowing :
 
