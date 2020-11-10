@@ -101,4 +101,4 @@ The official documentation is located [here](https://llvm.org/docs/CoverageMappi
 The `LLVM Code Coverage Mapping Format` is working on a per-function level .
 
 --------------
-Will continue this ... waiting for fuzzbench local runs.
+Will continue this ... waiting for fuzzbench local runs ...
