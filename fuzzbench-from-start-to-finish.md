@@ -130,3 +130,4 @@ If you started doing fuzzbench installation in the way from [fuzzbench official 
 In some rare situatios, you may get the above Error from fuzzbench. (Will continue this ...)
 
 Here is will write more about the problems
+This problem occures mostly when you add a custom fuzzer to fuzzbench
