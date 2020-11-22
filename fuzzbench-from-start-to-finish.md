@@ -126,7 +126,7 @@ If you started doing fuzzbench installation in the way from [fuzzbench official 
 	`pip install --upgrade setuptools` and after this, repeat previous step (`pip install -r requirements.txt`).
 
 
-- Local experiment issue : ERRO[0612] error waiting for container: unexpected EOF.
+- Local experiment issue : ERROR[0612] error waiting for container: unexpected EOF.
 In some rare situatios, you may get the above Error from fuzzbench. (Will continue this ...)
 
 Here is will write more about the problems
