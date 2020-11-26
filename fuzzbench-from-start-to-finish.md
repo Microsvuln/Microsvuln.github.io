@@ -144,4 +144,4 @@ export BENCHMARK_NAME=re2-2014-12-09
 export BENCHMARK_NAME=zlib_zlib_uncompress_fuzzer
 export BENCHMARK_NAME=woff2-2016-05-06
 export BENCHMARK_NAME=systemd_fuzz-link-parser
-export BENCHMARK_NAME=vorbis-2017-12-11
+export BENCHMARK_NAME=vorbis-2017-12-11ssssssssssssss
