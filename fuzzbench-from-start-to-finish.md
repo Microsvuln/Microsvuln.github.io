@@ -137,11 +137,4 @@ To better understand this problem I will give an example here :
 
 if you see this error then you should check the following :
 
-export benchmarks :
 
-export BENCHMARK_NAME=proj4-2017-08-14
-export BENCHMARK_NAME=re2-2014-12-09
-export BENCHMARK_NAME=zlib_zlib_uncompress_fuzzer
-export BENCHMARK_NAME=woff2-2016-05-06
-export BENCHMARK_NAME=systemd_fuzz-link-parser
-export BENCHMARK_NAME=vorbis-2017-12-11ssssssssssssss
