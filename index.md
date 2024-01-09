@@ -1,1 +1,1 @@
-## Vulnerability research, Talking Browser and Kernel
+## Vulnerability research, Binary exploitation, Fuzzing, Kernel and Browsers
